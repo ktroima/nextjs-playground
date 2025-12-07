@@ -61,6 +61,37 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="bg-white rounded-lg shadow-md p-8 mb-8">
+          <h2 className="text-2xl font-semibold mb-6 text-gray-800">
+            🚀 パフォーマンス最適化デモ
+          </h2>
+          <div className="grid gap-4">
+            <Link
+              href="/performance"
+              className="block p-4 border-2 border-green-500 bg-green-50 rounded-lg hover:shadow-lg transition-all"
+            >
+              <h3 className="font-semibold text-lg text-green-900">
+                画像最適化デモ
+              </h3>
+              <p className="text-green-700 text-sm mt-1">
+                next/image による自動最適化を体験（WebP変換、レスポンシブ、遅延読み込み）
+              </p>
+            </Link>
+
+            <Link
+              href="/code-splitting"
+              className="block p-4 border-2 border-purple-500 bg-purple-50 rounded-lg hover:shadow-lg transition-all"
+            >
+              <h3 className="font-semibold text-lg text-purple-900">
+                コード分割デモ
+              </h3>
+              <p className="text-purple-700 text-sm mt-1">
+                動的インポートでバンドルサイズを削減し、初期表示を高速化
+              </p>
+            </Link>
+          </div>
+        </div>
+
         <div className="bg-white rounded-lg shadow-md p-8">
           <h2 className="text-2xl font-semibold mb-6 text-gray-800">
             サンプルページ
